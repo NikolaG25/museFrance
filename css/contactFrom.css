@@ -1,0 +1,40 @@
+.wp-block-contact-form-7-contact-form-selector input, .wp-block-contact-form-7-contact-form-selector textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.wp-block-contact-form-7-contact-form-selector input:focus-visible, .wp-block-contact-form-7-contact-form-selector textarea:focus-visible {
+    outline: none;
+}
+
+.wp-block-contact-form-7-contact-form-selector textarea {
+    resize: none;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.4rem;
+}
+
+.wpcf7-submit {
+    width: auto!important;
+    padding: 10px 70px!important;
+    border: none!important;
+    background: var(--secondaryColor);
+    color: white;
+    transition: scale .3s!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wpcf7-submit {
+scale: 1.1;
+transition: scale .3s;
+
+}
+
+.wpcf7-form p:has(.wpcf7-submit) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

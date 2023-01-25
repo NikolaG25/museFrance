@@ -23,6 +23,7 @@ Version: 1.0
 @import url('css/forum.css');
 @import url('css/responsive.css');
 @import url('css/inscription.css');
+@import url('css/contactFrom.css');
 
 :root {
   --primaryColor : #01020F;

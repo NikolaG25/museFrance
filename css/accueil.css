@@ -57,6 +57,9 @@
   .actusFront .listActuFront .actuFront {
     margin: 40px;
     width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .actusFront .listActuFront .actuFront img {

@@ -1,0 +1,28 @@
+.descMembre {
+    display: none;
+}
+
+.descMembres {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descMembre p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.membersContainer .card {
+    width: 250px;
+    height: 300px;
+}
+
+.membersContainer .card img {
+    height: 79%;
+}
+
+.widthUp {
+    width: 320px;
+}

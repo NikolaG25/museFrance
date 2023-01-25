@@ -1,0 +1,29 @@
+.user-registration {
+    background-color: transparent!important;
+    width: 70%;
+}
+
+.user-registration input {
+    border-bottom: 2px solid black!important;
+}
+
+.ur-form-grid div {
+    margin-top: 30px!important;
+    margin-bottom: 30px!important;
+}
+
+.ur-label {
+    color: black!important;
+}
+
+.ur-submit-button {
+    background-color: var(--secondaryColor);
+    color: white;
+    transition: scale .3s;
+}
+
+.ur-submit-button:hover {
+    scale: 1.1;
+    transition: scale .3s;
+
+}

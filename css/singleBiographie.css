@@ -1,0 +1,86 @@
+.maskMuse {
+    position: absolute;
+    bottom: -125px;
+    left: 0px;
+    z-index: -2;
+}
+
+.bioNavigation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bioNavigationNext, .bioNavigationPrev {
+    width: max-content;
+    height: max-content;
+    display: flex;
+}
+
+.bioNavigationNext a, .bioNavigationPrev a {
+    border: 2px solid black;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    transition: scale .5s, background .5s;
+}
+
+.bioNavigationPrev a:hover, .bioNavigationNext a:hover {
+    scale: 1.1;
+    transition: scale .5s, background .5s;
+}
+
+.bioNavigationNext a {
+    color: white;
+    background-color: var(--primaryColor);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.content > * {
+    margin-bottom: 25px;
+}
+
+.content figure {
+    width: 80%;
+}
+
+.content figure * {
+    width: 100%;
+}
+
+
+.content .wp-block-button a {
+    background-color: var(--secondaryColor);
+    border-radius: 0;
+    color: white;
+    width: 300px;
+    transition: scale .5s;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content .wp-block-button a:hover {
+    scale: 1.1;
+    transition: scale .5s;
+}
+
+.content .twitter-timeline {
+    width: 100%!important;
+}
+
+.content p {
+    font-size: 1.6rem;
+}

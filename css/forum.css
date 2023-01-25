@@ -1,0 +1,125 @@
+.contentForum {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bsp-new-topic {
+    display: none;
+}
+
+.bbp-header {
+    margin-bottom: 30px!important;
+}
+
+.bbp-header * {
+    font-size: 1.7rem;
+}
+
+.bbp-body * {
+    font-size: 1.5rem;
+}
+
+.bbp-body ul {
+    border-top: 2px solid black!important;
+    padding: 30px!important;
+}
+
+.bbp-topic-title .bbp-topic-permalink {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#bbpress-forums fieldset.bbp-form {
+    border: none;
+}
+
+#bbpress-forums fieldset.bbp-form * {
+    font-size: 1.5rem;
+}
+
+#bbpress-forums fieldset.bbp-form label {
+    margin-bottom: 5px;
+}
+
+#bbpress-forums fieldset.bbp-form input[type=text] {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.quicktags-toolbar, #bbpress-forums div.bbp-the-content-wrapper textarea.bbp-the-content {
+    background-color: transparent!important;
+    border-bottom: 2px solid black!important;
+}
+
+.wp-editor-container {
+    border: none!important;
+}
+
+#bbpress-forums div.bbp-the-content-wrapper input[type=button] {
+    color: white;
+    background-color: var(--secondaryColor);
+    padding: 10px;
+    margin: 5px 10px;
+}
+
+#bbpress-forums div.bbp-the-content-wrapper input[type=button]:hover {
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+
+}
+
+#bbpress-forums div.bbp-the-content-wrapper textarea.bbp-the-content {
+    font-size: 1.5rem;
+}
+
+div.bbp-submit-wrapper button {
+    border: none;
+    color: white;
+    background-color: var(--secondaryColor);
+    padding: 15px 50px;
+    transition: scale .3s, color .2s;
+
+}
+
+div.bbp-submit-wrapper button:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: scale .3s, color .2s;
+    background-color: transparent;
+    border: 2px solid var(--secondaryColor);
+    color: black;
+}
+
+#bbpress-forums fieldset.bbp-form p {
+    margin-top: 20px;
+
+}
+
+.inscription {
+    border: none;
+    background-color: var(--secondaryColor);
+    padding: 15px 50px;
+    transition: scale .3s, color .2s;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.inscription a {
+    color: white;
+}
+
+.inscription:hover a {
+    color: black;
+}
+
+.inscription:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: scale .3s, color .2s;
+    background-color: transparent;
+    border: 2px solid var(--secondaryColor);
+}

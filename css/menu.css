@@ -1,0 +1,134 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .header a img {
+    width: 100px;
+  }
+  .header__nav {
+    width: 90%;
+    list-style: none;
+    padding: 0;
+    margin-left: 50px;
+  }
+
+  .header__nav .menu-item {
+    display: inline-block;
+  }
+
+  .header__nav .menu-item a {
+    color: black;
+    font-weight: 900;
+    font-size: 1.8rem;
+  }
+
+  .current_page_item, .current-menu-item {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+  }
+
+  .current_page_item:hover::before, .current_page_item:hover::after, .current-menu-item:hover::before, .current-menu-item:hover::after {
+    display: none;
+  } 
+
+  .nav-toggle {
+    display: none;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+    transform: translate(0,-50%);
+  }
+
+  .nav-toggle-bar,
+.nav-toggle-bar::before,
+.nav-toggle-bar::after {
+  content: "";
+  background-color: black;
+  width: 100%;
+  height: 0.3rem;
+  position: absolute;
+  left: 0;
+  transition: all 0.4s ease-in-out;
+}
+.nav-toggle-bar::before {
+  top: -1rem;
+}
+.nav-toggle-bar::after {
+  top: 1rem;
+}
+
+@media (max-width : 1300px) {
+  .menu-item {
+    margin: 0 20px!important;
+  }
+
+  .header__nav .menu-item a {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width : 875px) {
+.header {
+  position: relative;
+}
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .header__nav {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0;
+    top: 0;
+    left: -100vw;
+    flex-direction: column;
+    background-color: white;
+    padding: 20% 10%;
+    z-index: 3;
+    transition: left .5s;
+
+  }
+
+  .menu-open .header__nav {
+    left: 0;
+    transition: left .5s;
+  }
+
+  .logoHeader {
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 4;
+  }
+
+  .menu-open,
+.menu-open body {
+  overflow: hidden;
+}
+
+.menu-open .nav-toggle-bar {
+  transform: rotate(135deg);
+}
+.menu-open .nav-toggle-bar::before,
+.menu-open .nav-toggle-bar::after {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+.header__nav .menu-item a {
+  font-size: 2rem;
+}
+
+.header__nav .menu-item {
+  margin: 25px 0!important;
+}
+}

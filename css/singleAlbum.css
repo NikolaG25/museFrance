@@ -1,0 +1,84 @@
+.singleAlbums .content {
+    width: 100%;
+}
+
+.tracklist {
+    background-color: var(--primaryColor);
+    width: 100%;
+    padding: 100px 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tracklist * {
+    color: white;
+}
+
+.morceau_desc {
+    display: none;
+}
+
+.morceau_desc p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.morceauxTitle .card {
+    width: max-content!important;
+    height: max-content;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.infosTracklist {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.iframeSpotify {
+    margin: 10px 50px;
+    width: 45%;
+}
+
+.morceau_title {
+    margin-top: 0;
+}
+
+.morceau_title:first-child {
+    margin-left: 0;
+}
+
+.infosAlbum {
+    width: 60%;
+}
+
+.infosAlbum .coverMainInfos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.infosAlbum .coverMainInfos .albumInfos {
+    margin: auto 25px;
+    height: max-content;
+
+}
+
+.infosAlbum .coverMainInfos .albumInfos p {
+    font-size: 1.7rem;
+    padding: 20px 100px 20px 15px;
+    border-bottom: 2px solid black;
+}
+
+.infosAlbum .coverMainInfos .albumInfos p:first-child {
+    border-top: 2px solid black;
+}
+
+.infosAlbum .coverMainInfos img {
+    width: 40%;
+    height: auto;
+    margin: 25px;
+}

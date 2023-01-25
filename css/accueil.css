@@ -1,0 +1,139 @@
+.firstScreen {
+    position: relative;
+    height: 102vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .firstScreen__video {
+    height: 90%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    top: 0;
+  }
+  .firstScreen__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .firstScreen__logo {
+    height: 500px;
+    width: 500px;
+  }
+
+
+  .actusFront {
+    background-color: var(--primaryColor);
+    padding: 30px;
+  }
+
+  .actusFront h1, .concertsFront h1 {
+    font-size: 4rem;
+    width: max-content;
+    margin: 20px auto;
+    
+  }
+
+  .actusFront * {
+    color: white;
+  }
+
+  .actusFront .listActuFront {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .actusFront .listActuFront .actuFront {
+    margin: 40px;
+    width: 320px;
+  }
+
+  .actusFront .listActuFront .actuFront img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+
+  .actusFront .listActuFront .actuFront h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+
+  .actusFront .listActuFront .actuFront .seeMoreActu {
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px 20px;
+    background-color: #2198A6;
+    transition: scale .3s;
+    border: none;
+    text-align: center;    
+    font-size: 1.5rem;
+
+  }
+
+  .actusFront .listActuFront .actuFront .seeMoreActu:hover {
+    scale: 1.1;
+    transition: scale .3s;
+  }
+
+  .concertsFront {
+    margin-top: 100px;
+  }
+
+  .liensFront {
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+  }
+
+  .liensFront .lienGauche, .liensFront .lienDroite { 
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .fondGauche, .fondDroite {
+    width: 100%;
+  }
+
+  .infosLienCard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 80px;
+  }
+
+  .infosLienCard h2 {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .lienFront img {
+    transition: scale .3s;
+    height: 100%;
+  }
+
+  .lienFront:hover img {
+    scale: 1.1;
+    transition: scale .3s;
+  }
+

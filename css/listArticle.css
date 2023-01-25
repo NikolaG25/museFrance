@@ -1,0 +1,37 @@
+@media (max-width : 775px) {
+    .cardArticle:nth-child(1) {
+        grid-column: 1!important;
+    }
+}
+
+.cardArticle, .cardAlbum {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.cardArticle img, .cardAlbum img {
+    transition: scale .5s;
+
+}
+
+.cardArticle:hover img, .cardAlbum:hover img {
+    scale: 1.2;
+    transition: scale .5s;
+}
+
+.cardArticle:nth-child(1) {
+    grid-column: 1/3;
+}
+
+.cardArticle .infosArticle {
+    align-items: flex-end;
+    padding: 30px 15px;
+}
+
+.cardArticle .infosArticle .title {
+    font-weight: bold;
+    text-align: center;
+}
+

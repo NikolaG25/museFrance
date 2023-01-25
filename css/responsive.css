@@ -1,0 +1,101 @@
+@media (max-width : 900px) {
+    .liensFront {
+        flex-direction: column;
+    }
+
+    .liensFront a {
+        width: 100%!important;
+        height: 400px;
+    }
+
+    .liensFront a img {
+        object-fit: cover;
+    }
+
+    .liensFront a .infosLienCard * {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width : 425px) {
+    .firstScreen__logo {
+        width: 300px;
+        height: 300px;
+    }
+
+    .menuFooter ul {
+        width: 100%;
+    }
+
+    .menuFooter ul li {
+        width: auto;
+        margin-top: 10px!important;
+        margin-bottom: 10px!important;
+    }
+
+    .listConcertsFront {
+        display: block!important;
+        width: 100vw!important;
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+
+    .listConcertsFront .cardConcert {
+        margin: 0;
+    }
+
+    .actusFront h1, .concertsFront h1 {
+        font-size: 3rem;
+    }
+
+    .siteHeading {
+        width: 80%;
+        text-align: center;
+        margin-left: auto!important;
+        margin-right: auto;
+        font-size: 3.4rem!important;
+    }
+
+    .content * {
+        width: 100%!important;
+    }
+
+    .albumContent {
+        width: 80%!important;
+    }
+}
+
+@media (max-width : 1000px) {
+    .maskMuse {
+        width: 200px;
+    }
+
+    .content, .infosAlbum .coverMainInfos img {
+        width: 60%;
+    }
+}
+
+@media (max-width : 800px) {
+    .maskMuse {
+        display: none;
+    }
+
+    .content {
+        width: 80%;
+    }
+}
+
+@media (max-width : 600px) {
+    .infosAlbum {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1249px) {
+    .iframeSpotify {
+        margin-bottom: 30px;
+    }
+    .infosTracklist, .iframeSpotify  {
+        width: 75%;
+    }
+}

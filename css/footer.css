@@ -1,0 +1,55 @@
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+
+}
+
+.followUs {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.followUs h3 {
+    font-size: 3.6rem;
+    text-align: center;
+}
+
+.followUs ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.followUs ul li {
+    margin: 10px;
+}
+
+.followUs ul li:first-child {
+    margin-left: 0;
+}
+
+.followUs ul li:last-child {
+    margin-right: 0;
+}
+
+.menuFooter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menuFooter ul {
+    margin: 50px;
+}
+
+.menuFooter ul li {
+    margin: 20px 0;
+}
+
+.menuFooter ul li a {
+    font-size: 2rem;
+}
